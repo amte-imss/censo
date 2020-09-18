@@ -1,0 +1,143 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/02/2017, 03:29:54 PM
+    Author     : chrigarc
+*/
+
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    color: #595959;
+    font-family: 'Lato', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 14px;
+    /*background: #d8d8d8;*/
+     /*padding-top: 70px; Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.top{
+    margin-top: 30px;
+}
+
+.cabeza{
+margin-bottom: 20px;
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.network-bar {
+    text-align: center;
+    padding: 10px 12px;
+    background: #f5f5f5;
+    height: 36px;
+    overflow: hidden;
+}
+
+
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    color: #333;
+    margin: 0px 0;
+}
+
+.footer-wrap {
+    background: #ccc; /*#292d74;*/
+    color: #333;
+    border-top: 20px solid #2d4838;
+    padding: 15px;      
+}
+
+.leader-ad {
+    width: 732px;
+    text-align: center;
+    margin: 1.5em auto;
+    min-height: 90px;
+}
+
+.property5 { color: #e39f48;
+    padding-right:5px;
+ }
+
+ .size{
+    width: 50px;
+ }
+
+.navbar-default1 {
+    background-color: #2c4838 !important;
+}
+.navbar-toggle {
+    background:#fff;
+    padding: 8px;
+    color: #666;
+    border: 1px solid;
+}
+
+.navbar-default1 .navbar-toggle {
+    margin: 0px;
+    margin-top: -10px;
+}
+.menu_primario {
+    background-color: #2c4838;
+}
+
+.navbar-default1 .navbar-nav > li > a{
+    color: #fff;
+}
+
+.navbar-default1 .navbar-nav > li > a:hover{
+    background-color: #000;
+}
+.navbar-collapse.in {
+    overflow-y: unset;
+}
+.panel {
+    background-color: #ddd;
+}

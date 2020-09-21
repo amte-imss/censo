@@ -52,7 +52,7 @@ class Buscador_model extends CI_Model {
                 $this->db->join('rist_usuario', 'rist_taller.usr_matricula=rist_usuario.usr_matricula', 'left');
                 $this->db->join('rist_categoria', 'rist_taller.cve_categoria=rist_categoria.des_clave', 'left');
                 $this->db->join('rist_delegacion', 'rist_taller.cve_delegacion=rist_delegacion.cve_delegacion', 'left');
-                $this->db->group_by("rist_taller.taller_id");
+                $this->db->group_by("rist_taller.taller_id, rist_categoria.nom_categoria");
 
                 $this->db->stop_cache();
                 /////////////////////// Fin almacenado de parámetros en cache ///////////////////////////
@@ -77,7 +77,7 @@ class Buscador_model extends CI_Model {
                             //'rist_agenda.a_fin',
                             'rist_agenda.a_tipo',         //'('.$fecha_fin.') AS a_fin'       -   'rist_agenda.a_fin'
                             'case when rist_agenda.a_tipo = \'1\' then (select min(a_agenda_fecha) from rist_agenda_fecha af where af.agenda_id = rist_agenda.agenda_id) else rist_agenda.a_inicio end a_inicio', 
-                            'case when rist_agenda.a_tipo = \'1\' then (select max(a_agenda_fecha) from rist_agenda_fecha af where af.agenda_id = rist_agenda.agenda_id) else rist_agenda.a_inicio end a_fin',
+                            'case when rist_agenda.a_tipo = \'1\' then (select max(a_agenda_fecha) from rist_agenda_fecha af where af.agenda_id = rist_agenda.agenda_id) else rist_agenda.a_fin end a_fin',
                             '(select count(*) from rist_agenda_fecha af where af.agenda_id = rist_agenda.agenda_id) numero_sesion'
                             );
 

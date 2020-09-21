@@ -24,6 +24,6 @@ $config['estado_taller'] = array('ACTIVO'=>array('id'=>1, 'text'=>'Activo'), 'CA
 
 $config['estado_agenda'] = array('ACTIVO'=>array('id'=>1, 'text'=>'Activo'), 'INACTIVO'=>array('id'=>0, 'text'=>'Inactivo'));
 
-$config['tipo_sesion'] = array('PRESENCIAL'=>array('id'=>1, 'text'=>'Presencial'), 'DISTANCIA'=>array('id'=>2, 'text'=>'En linea'));
+$config['tipo_sesion'] = array('DISTANCIA'=>array('id'=>2, 'text'=>'En linea'), 'PRESENCIAL'=>array('id'=>1, 'text'=>'Presencial'));
 
 $config['delegacion_centro'] = array('09','15','16','35','36','37','38','39');

@@ -29,7 +29,7 @@
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="padding:0px;">
-            <ul class="nav navbar-nav pull-right">
+            <ul class="nav navbar-nav pull-left">
                 <?php
                 $usuario_logueado = $this->session->userdata('usuario_logeado');
                 $tipo_admin = $this->session->userdata('tipo_admin'); //Tipo de usuario almacenado en sesión
@@ -61,9 +61,9 @@
                                 </li>
                             </ul>
                         </li>
-                        <li>
+                        <!--li>
                             <a href="<?php echo site_url('profesor'); ?>">Asistencia</a>
-                        </li>
+                        </li-->
                         <li>
                             <a href="<?php echo site_url('buscador'); ?>">Buscador</a>
                         </li>
@@ -122,9 +122,9 @@
                                 </li>
                             </ul>
                         </li>
-                        <li>
+                        <!--li>
                             <a href="<?php echo site_url('profesor'); ?>">Asistencia</a>
-                        </li>
+                        </li-->
                         <li>
                             <a href="<?php echo site_url('buscador'); ?>">Buscador</a>
                         </li>
@@ -148,9 +148,9 @@
                                 </li>
                             </ul>
                         </li>
-                        <li>
+                        <!--li>
                             <a href="<?php echo site_url('profesor'); ?>">Asistencia</a>
-                        </li>
+                        </li-->
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li>

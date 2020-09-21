@@ -27,7 +27,7 @@
                 </div>
 
                 <div class="panel-body">
-                    <p>Sistema de registro a talleres de actualización en el uso de los recursos de información en salud.</p>
+                    <p>Sistema de registro a los cursos de Procedimientos para las Unidades de Información del Sistema Bibliotecario IMSS.</p>
                     <p>Si desea <a href="<?php echo site_url('/registro/cancelacion'); ?>" class="ligas">cancelar <span class="glyphicon glyphicon-link"></span></a> su registro a los talleres lo puede hacer desde <a href="<?php echo site_url('/registro/cancelacion'); ?>" class="ligas">aquí <span class="glyphicon glyphicon-link"></span></a>.</p>
                     <p>Si desea re-agendar su asistencia debe primero <a href="<?php echo site_url('/registro/cancelacion'); ?>" class="ligas" >cancelar <span class="glyphicon glyphicon-link"></span></a> su registro previo y posteriormente <a href="<?php echo site_url('/registro'); ?>" class="ligas">registrarse <span class="glyphicon glyphicon-link"></span></a> nuevamente. Considere las siguientes restricciones:<br>
                         a) S&oacute;lo puede estar inscrito en un taller por a&ntilde;o.<br>
@@ -42,7 +42,7 @@
     <div class="col-sm-12 col-md-6 col-lg-6">
         <div class="row" style="margin:5px;">
             <div class="panel">
-                <div class="breadcrumbs6 panel-heading" style="padding-left:20px;  background-size: 100% 100%; padding-right: 20px;"><h2 id="titulo_registro"><small><span class="glyphicon glyphicon-info-sign"></span></small> Registro a los talleres de actualización de recursos electrónicos <!--font class="fontTitulo">(Sesiones presenciales. Sede CENAIDS Centro Médico Siglo XXI)</font--></h2></div>
+                <div class="breadcrumbs6 panel-heading" style="padding-left:20px;  background-size: 100% 100%; padding-right: 20px;"><h2 id="titulo_registro"><small><span class="glyphicon glyphicon-info-sign"></span></small> Registro a los cursos de Procedimientos para las Unidades de Información del Sistema Bibliotecario IMSS <!--font class="fontTitulo">(Sesiones presenciales. Sede CENAIDS Centro Médico Siglo XXI)</font--></h2></div>
 
                     <div class="panel-body">
                     <?php if(exist_and_not_null($error)){ ?>

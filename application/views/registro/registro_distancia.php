@@ -82,7 +82,7 @@ if( $sesiones_programadas_distancia_disponibles != 0)
             <div class="row" style="margin:5px;">
                 <div class="panel">
                     <div class="breadcrumbs6 panel-heading" style="padding-left:20px;"><h1 id="titulo_registro">
-                        <small><span class="glyphicon glyphicon-info-sign"></span></small> Registro a los talleres de actualización de recursos electrónicos </h1></div>
+                        <small><span class="glyphicon glyphicon-info-sign"></span></small> Registro a los cursos de Procedimientos para las Unidades de Información del Sistema Bibliotecario IMSS</h1></div>
 
                         <div class="panel-body">
                         <?php

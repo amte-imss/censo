@@ -30,7 +30,7 @@ class Buscador extends CI_Controller {
      */
 	public function index()	{
 
-		$sesiones = $this->buscador->listado_sesiones(array('conditions'=>array('a_estado'=>1, 'a_tipo'=>1)));
+		$sesiones = $this->buscador->listado_sesiones(array('conditions'=>array('a_estado'=>1, 'a_tipo'=>2)));
 		//$categoria = $this->buscador->listado_categoria();
 		$delegacion = $this->buscador->listado_delegacion();
 		//$adscripcion = $this->buscador->listado_adscripcion();

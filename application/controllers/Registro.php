@@ -313,7 +313,7 @@ class Registro extends MY_Controller {
 	}
 
 	public function confirmacion(){
-		$this->template->setTitle("Registro a los talleres de actualización de recursos electrónicos");
+		$this->template->setTitle("Registro a los cursos de Procedimientos para las Unidades de Información del Sistema Bibliotecario IMSS");
 		$this->template->setMainContent('<div class="container"><div class="text-right" style="margin-right:50px;"><a href="'.site_url('/registro/registrosagenda').'" class="btn btn-primary">< Ir al registro</a></div><br></div>');
 		$this->template->getTemplate();
 	}

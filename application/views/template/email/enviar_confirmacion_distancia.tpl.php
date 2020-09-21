@@ -1,6 +1,6 @@
 <div style="color:#333;">
 	<p>Estimado(a) <?php echo $usuario->usr_nombre.' '.$usuario->usr_paterno.' '.$usuario->usr_materno; ?>,
-	Gracias por registrarte al taller "<?php echo $agenda[0]['a_nombre']; ?>".</p>
+	Gracias por registrarte al curso	 "<?php echo $agenda[0]['a_nombre']; ?>".</p>
 	<p>Por favor verifica la siguiente información sobre tu inscripción:</p>
 	<p>Fecha: <b><?php echo date("d-m-Y", strtotime($agenda[0]['a_inicio'])); ?></b></p>
 	<p>Hora: <b><?php echo date("H:i",strtotime($agenda[0]['a_hr_inicio'])); ?></b> hr</p>
@@ -32,18 +32,11 @@
 		<p>ID conferencia: <b><?php echo $agenda[0]['id_conferencia']; ?></b></p>
 	<?php } ?>
     <br>
-	<p>Nos interesa conocer  tu opinión sobre la capacitación, para ello, una vez terminado el taller te
-	solicitamos contestar la encuesta de satisfacción que ponemos a tu disposición: </p>
-	<p><a href="http://goo.gl/forms/TJtOycBbIXLUR3pt2">http://goo.gl/forms/TJtOycBbIXLUR3pt2</a></p>
-
-
-	<br>
+	
 	<p>Para cualquier duda o comentario no dude en comunicarse con nosotros.</p>
-	<b>Correo electr&oacute;nico:</b> <a href="mailto:recursoselectronicosimss@gmail.com">recursoselectronicosimss@gmail.com</a><br>
-	<b>Teléfono:</b> 5627 6900 ext. 21152<bR>
-	<a href="http://innovacioneducativa.imss.gob.mx/imss_conricyt/">Sitio Web del convenio IMSS CONRICYT</a>
+	<b>Correo electr&oacute;nico:</b> <a href="mailto:diana.sanchezt@imss.gob.mx">diana.sanchezt@imss.gob.mx</a><br>
 	<br>
-	<p>ATTE: Divisi&oacute;n de Innovaci&oacute;n Educativa, IMSS</p>
+	<p>ATTE: Centro Nacional de Investigaci&oacute;n Documental en Salud, IMSS</p>
 	<br><br>
 	<!--<h3><b>* Esta misma información le será enviada por correo electrónico, en caso de no recibirla en su bandeja de entrada principal recuerde revisar su bandeja de spam (correo no deseado).</b></h3>-->
 </div>

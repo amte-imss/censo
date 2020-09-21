@@ -6,7 +6,7 @@
 <div class="row">
     <div class="container">
         <div class="breadcrumbs6 panel-heading" style="padding-left:20px; background-size: 100% 100%;">
-            <h1><small><span class="glyphicon glyphicon-info-sign"></span></small> Talleres presenciales de actualización de recursos electrónicos</h1></div>
+            <h1><small><span class="glyphicon glyphicon-info-sign"></span></small> Talleres presenciales</h1></div>
         <div class="panel-body">
             <div class="col-lg-12">
                 <!--div class="col-sm-6">

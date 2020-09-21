@@ -13,7 +13,7 @@
                                         <div class="col-lg-4 col-sm-4">
                                                 <div class="panel-body  input-group input-group-sm">
                                                         <span class="input-group-addon">Tipo de Sesiones:</span>
-                                                        <?php echo $this->form_complete->create_element(array('id'=>'tipo', 'type'=>'dropdown', 'value'=>'1', 'options'=>$tipo, 'first'=>array(''=>'Seleccione...'), 'attributes'=>array('name'=>'tipo[]', 'class'=>'form-control', 'placeholder'=>'Tipo de sesiones', 'data-toggle'=>'tooltip', 'data-placement'=>'top', 'title'=>'Tipo de Sesiones'))); ?>
+                                                        <?php echo $this->form_complete->create_element(array('id'=>'tipo', 'type'=>'dropdown', 'value'=>'2', 'options'=>$tipo, 'first'=>array(''=>'Seleccione...'), 'attributes'=>array('name'=>'tipo[]', 'class'=>'form-control', 'placeholder'=>'Tipo de sesiones', 'data-toggle'=>'tooltip', 'data-placement'=>'top', 'title'=>'Tipo de Sesiones'))); ?>
                                                 </div>
                                         </div>
                                         <div class="col-lg-4 col-sm-4">

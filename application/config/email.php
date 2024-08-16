@@ -24,7 +24,7 @@ $config['email'] = Array(
     'crypt' => '',
     'username' => "",
     'password' => "",
-    'setFrom' => array('email'=>'acceso.edumed@imss.gob.mx', 'name'=>'RIST IMSS')
+    'setFrom' => array('email'=>'acceso.edumed@imss.gob.mx', 'name'=>'IMSS :: Capacitaciones SIBIMSS')
 	
     //correos de becas
 	// 'host' => 'smtp.gmail.com',

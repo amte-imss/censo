@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="container">
                     <div class="col-lg-3"><h4>Informes:</h4>
-                        <p><em>Correo electrónico:</em> <a href="mailto:diana.sanchezt@imss.gob.mx ">diana.sanchezt@imss.gob.mx </a></p>
+                        <p><em>Correo electrónico:</em> <a href="mailto:recursoselectronicosimss@gmail.com ">recursoselectronicosimss@gmail.com </a></p>
                     </div>
                     <div class="row">
                         <div data-wow-animation-name="fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;" class="col-lg-9 col-md-9 col-sm-9  wow fadeInLeft animated"> <a href="<?php echo site_url('registro'); ?>" target="_blank" class="btn btn-perfil btn-lg btn-block">¡Regístrate!</a></div>
